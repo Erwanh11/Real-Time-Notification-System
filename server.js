@@ -26,8 +26,16 @@ app.use('/notify', notificationRoutes);
 // Initialise socket handler
 initSocketHandler(io);
 
+// Serve client
+app.use(express.static('client'));
+
+// Trust proxy
+app.set('trust proxy', true);
+
+
 // Start server
 const PORT = process.env.PORT || 3000;
 server.listen(PORT, () => {
   console.log(`Server start on port ${PORT}`);
 });
+
