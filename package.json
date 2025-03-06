@@ -1,0 +1,25 @@
+{
+  "name": "real-time-notification-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Erwanh11/Real-Time-Notification-System.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Erwanh11/Real-Time-Notification-System/issues"
+  },
+  "homepage": "https://github.com/Erwanh11/Real-Time-Notification-System#readme",
+  "dependencies": {
+    "express": "^4.21.2",
+    "redis": "^4.7.0",
+    "socket.io": "^4.8.1"
+  }
+}
